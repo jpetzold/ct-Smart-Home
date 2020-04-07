@@ -11,11 +11,11 @@ It includes Node-RED, MQTT (provided by [Eclipse Mosquitto](https://mosquitto.or
 ![](https://img.shields.io/docker/pulls/ctmagazin/ctnodered.svg)
 ![](https://img.shields.io/docker/stars/ctmagazin/ctnodered.svg)
 
-## Requirements
+## Requirements 
 
 To get this going you need a working [Docker 18.02.0+ setup](https://docs.docker.com/install/) and [docker-compose](https://docs.docker.com/compose/install/). 
 
-This setup will run on any  AMD64 or ARM32v7 machine. This includes virtually any PC or a Raspberry Pi 3 or newer. We also build containers for ARM64v8, ARM32v6 and S390X but they are untested.
+This setup will run on any  AMD64 or ARM32v7 machine. This includes virtually any PC or a Raspberry Pi 2 or newer. We also build containers for ARM64v8, ARM32v6 and S390X but they are untested.
 
 If you want to control Zigbee devices you also will need a Zigbee controller stick. Have a look at [Zigbee2MQTT's documentation](https://www.zigbee2mqtt.io/getting_started/what_do_i_need.html) for that.
 
